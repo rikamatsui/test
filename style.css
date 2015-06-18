@@ -1,0 +1,59 @@
+*{
+margin: 0;
+    padding: 0;
+    
+}
+
+body{
+width: 100%;
+
+
+}
+
+#key-block .container{
+ width: 450px;
+ margin: auto;
+}
+
+#key-block img{
+    float: left;
+    margin-right: 10px;
+}
+
+#key-block h1{
+    float: left;
+    font-size: 20px;
+    width: 450px;
+    margin-bottom: 5px;
+
+}
+
+#key-block p{
+    float: left;
+    font-size: 12px;
+    width: 350px;
+    margin-bottom: 5px;
+
+}
+
+nav{
+    background: #ff4c4c;
+    margin-bottom: 60px;
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+    
+
+}
+
+nav a{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    border-radius: 0;
+    padding: 3px;
+    transition: 0.5s;
+        
+}
