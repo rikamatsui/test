@@ -58,6 +58,8 @@ nav{
 
 nav li{
     display: inline-block;
+    width: 100px;
+    height: 40px;
     list-style-type: none;
 
 }
@@ -80,6 +82,11 @@ nav a:hover{
     text-align: center;
     text-decoration: none;
     border: none;
-    
+    list-style-type: none;
+}
+
+#eye{
+    text-align: center;
+    list-style-type: none;
 
 }
