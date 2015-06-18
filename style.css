@@ -6,14 +6,24 @@ margin: 0;
 
 body{
 width: 100%;
+background-color: #6C7A89;
+
+}
+
+#wrap{
+    width: 500px;
+    margin: auto;
+}
+
+
+.container{
+    width: 90%;
+    margin: 30px;
+}
 
 
 }
 
-#key-block .container{
- width: 450px;
- margin: auto;
-}
 
 #key-block img{
     float: left;
@@ -21,39 +31,46 @@ width: 100%;
 }
 
 #key-block h1{
-    float: left;
-    font-size: 20px;
+    text-align: center;
+    font-size: 18px;
     width: 450px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
+    color: aliceblue;
 
 }
 
 #key-block p{
-    float: left;
+    text-align: center;
     font-size: 12px;
-    width: 350px;
+    width: 450px;
     margin-bottom: 5px;
+    color: aliceblue;
 
 }
 
 nav{
-    background: #ff4c4c;
-    margin-bottom: 60px;
+    overflow: hidden;
+    background: #F2F1EF;
+    margin-bottom: 30px;
+
 }
 
 nav li{
     float: left;
     list-style-type: none;
-    
 
 }
 
 nav a{
     text-decoration: none;
     border: none;
-    color: #fff;
+    color: #6C7A89;
     border-radius: 0;
-    padding: 3px;
+    padding: 8px;
     transition: 0.5s;
-        
+}
+
+nav a:hover{
+    background: #6C7A89;
+    color: #F2F1EF;
 }
