@@ -20,3 +20,38 @@ p{
     text-align: center;
     font-family: 'Hiragino Kaku Gothic ProN';
 }
+
+.container{
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+}
+
+nav{
+    overflow: hidden;
+    background: #F2F1EF;
+    margin-bottom: 30px;
+
+}
+
+nav li{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    list-style-type: none;
+
+}
+
+nav a{
+    text-decoration: none;
+    border: none;
+    color: #6C7A89;
+    border-radius: 0;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background: #6C7A89;
+    color: #F2F1EF;
+}
