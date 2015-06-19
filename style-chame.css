@@ -9,3 +9,14 @@ width: 100%;
 background-color: #6C7A89;
 color: #F2F1EF;
 }
+
+h1{
+    font-family: serif;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Hiragino Kaku Gothic ProN';
+}
